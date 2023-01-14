@@ -11,7 +11,7 @@ function App() {
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <a href="javascript:void(0)">
-                            <h2 className="text-2xl font-bold">EVENNTII</h2>
+                            <h2 className="text-2xl font-bold text-blue-500 ">EVENNTII</h2>
                         </a>
                         <div className="md:hidden">
                             <button
@@ -70,15 +70,40 @@ function App() {
                             <li className="text-gray-600 hover:text-blue-600">
                                 <a href="javascript:void(0)">Contact US</a>
                             </li>
+                            <li className="text-white hover:text-white bg-blue-500 p-2 rounded-xl">
+                                <a href="javascript:void(0)">Support Us</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
-      <section class="flex items-center m-20">
+      <section class="flex items-center m-20 flex-wrap justify-start items-start">
+        <div className='flex-1 '>
+          <h1 className="text-6xl font-bold text-left mb-5">All in one web3 App</h1>
+          <p className='text-left'>lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem</p>
+        <div className="mt-5">
+        <img src="https://1000logos.net/wp-content/uploads/2020/08/apple-app-store-logo.jpg"width="140"/>
+                <img className='mt-1' src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/800px-Google_Play_Store_badge_EN.svg.png" width="145" />
+        </div>
+        </div>
+        <div className='flex-4'>
+          <img src="https://www.citypng.com/public/uploads/small/11664668285w1lxkkw5k2v72a8qlwlp2fav0xs4qg0ymzltyhr6qpat3gbz9rkrrktkxsatimj7wkiqq3xwa45pinhfpu6rwoxcfirf5k6d3qeg.png"/>
+        </div>
+      </section>
+      <section class="flex items-center m-0 flex-wrap bg-blue-500 p-20 flex-col">
         <div className='flex-1'>
-          <h1 className="text-xl font-bold">All in one web3 App</h1>
-          <p>lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem</p>
+          <h1 className="text-3xl font-bold text-center mb-5 text-white ">All in one web3 App</h1>
+          <p className='text-left'>lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem</p>
+        </div>
+        <div className='flex-3'>
+          <img src="https://www.citypng.com/public/uploads/small/11664668285w1lxkkw5k2v72a8qlwlp2fav0xs4qg0ymzltyhr6qpat3gbz9rkrrktkxsatimj7wkiqq3xwa45pinhfpu6rwoxcfirf5k6d3qeg.png"/>
+        </div>
+      </section>
+      <section class="flex items-center m-0 flex-wrap bg-white p-20 flex-col">
+        <div className='flex-1'>
+          <h1 className="text-3xl font-bold text-center mb-5 text-black ">All in one web3 App</h1>
+          <p className='text-left'>lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem</p>
         </div>
         <div className='flex-3'>
           <img src="https://www.citypng.com/public/uploads/small/11664668285w1lxkkw5k2v72a8qlwlp2fav0xs4qg0ymzltyhr6qpat3gbz9rkrrktkxsatimj7wkiqq3xwa45pinhfpu6rwoxcfirf5k6d3qeg.png"/>
