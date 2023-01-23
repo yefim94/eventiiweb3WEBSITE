@@ -10,7 +10,7 @@ function App() {
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                        <a href="javascript:void(0)">
+                        <a href={`/`}>
                             <h2 className="text-2xl font-bold text-blue-500 ">EVENNTII</h2>
                         </a>
                         <div className="md:hidden">
@@ -59,19 +59,19 @@ function App() {
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-gray-600 hover:text-blue-600">
-                                <a href="javascript:void(0)">Home</a>
+                                <a href={`/Home`}>Home</a>
                             </li>
                             <li className="text-gray-600 hover:text-blue-600">
-                                <a href="javascript:void(0)">Blog</a>
+                                <a href={`/Blog`}>Blog</a>
                             </li>
                             <li className="text-gray-600 hover:text-blue-600">
-                                <a href="javascript:void(0)">About US</a>
+                                <a href={`/About`}>About US</a>
                             </li>
                             <li className="text-gray-600 hover:text-blue-600">
-                                <a href="javascript:void(0)">Contact US</a>
+                                <a href={`/Contact`}>Contact US</a>
                             </li>
                             <li className="text-white hover:text-white bg-blue-500 p-2 rounded-xl">
-                                <a href="javascript:void(0)">Support Us</a>
+                                <a href="/Support">Support Us</a>
                             </li>
                         </ul>
                     </div>
@@ -81,7 +81,7 @@ function App() {
       <section class="flex items-center m-20 flex-wrap justify-start items-start">
         <div className='flex-1 '>
           <h1 className="text-6xl font-bold text-left mb-5">All in one web3 App</h1>
-          <p className='text-left'>lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem</p>
+          <p className='text-left'>Eventii is a mobile app that provides a comprehensive suite of features for managing and utilizing cryptocurrencies in a user-friendly and secure manner. It allows users to easily buy, sell, and store a wide range of digital assets, as well as access various decentralized applications (dApps) and other web 3.0 services. Overall, Eventii is considered the best all-in-one web 3 crypto app due to its combination of convenience, functionality, and security.</p>
         <div className="mt-5">
         <img src="https://1000logos.net/wp-content/uploads/2020/08/apple-app-store-logo.jpg"width="140"/>
                 <img className='mt-1' src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/800px-Google_Play_Store_badge_EN.svg.png" width="145" />
